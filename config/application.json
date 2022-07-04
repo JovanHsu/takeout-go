@@ -1,0 +1,14 @@
+{
+  "application": {
+    "name": "demo"
+  },
+  "nacos": {
+    "hosts": "127.0.0.1",
+    "remote_user": "R_user",
+    "roles": [
+      "role_1",
+      "role_2",
+      "role_3"
+    ]
+  }
+}

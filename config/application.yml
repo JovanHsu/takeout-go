@@ -1,0 +1,13 @@
+nacos:
+  config:
+    namespace: df5621cf-615d-405c-bc70-63f9cde2c864
+    group: DEFAULT_GROUP
+    extension-configs[0]:
+      dataId: test.yml,test2.xml,test3.xml
+      refresh: true
+    shared-config:
+      - data-id: db-config.yml
+        refresh: true
+  discovery:
+    server-addr:
+      - 127.0.0.1:8848
